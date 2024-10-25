@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100%;
   color: #264653;
@@ -86,7 +90,8 @@ nav {
   display: flex;
   align-items: center;
   list-style-type: none;
-  gap: 3rem;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .menu li {
@@ -375,26 +380,166 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu ul {
+    gap: 1.5rem;
+  }
+
+  .galeria {
+    flex-wrap: wrap;
+  }
+
+  .contenedor-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .card {
+    width: 25%;
+  }
+
+  .card img {
+    width: 100%;
+    height: 12rem;
+    padding: 1rem;
+  }
+
+  .contenedor-btn {
+    padding: 0.5rem;
+  }
+
+  .btn-comprar {
+    padding: 0.4rem;
+  }
 }
 @media screen and (max-width: 768px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .titulo-principal h1 {
+    font-size: 2rem;
+  }
+
+  .menu ul {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .galeria {
+    flex-wrap: wrap;
+  }
+
+  .contenedor-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .card {
+    width: 44%;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+  }
 }
 @media screen and (max-width: 325px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
   nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    width: 100%;
+    height: 100%;
   }
 
   .logo {
-    margin-top: 4rem;
-  }
-
-  .logo img {
-    width: 200px;
+    width: 100%;
   }
 
   .titulo-principal {
     display: none;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .menu li {
+    font-size: 1rem;
+  }
+
+  .contenedor-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  aside {
+    width: 100%;
+  }
+  .paw {
+    display: none;
+  }
+
+  .menu-collapse {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+
+  main h2 {
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-footer {
+    margin-bottom: 2rem;
+  }
+
+  .container-texto-footer {
+    text-align: center;
   }
 }
