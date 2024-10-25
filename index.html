@@ -5,39 +5,663 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FurGame TCG Store</title>
 
-    <!-- Links -->
+    <!-- Fonts -->
+    <script
+      src="https://kit.fontawesome.com/0d1649e436.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <nav>
-      <div class="hero">
+    <div id="inicio" class="layout">
+      <nav>
         <div class="logo">
-          <img src="#" alt="Logo FurGame TCG" />
+          <img src="./assets/img/logo.png" alt="Logo FurGame TCG" />
+        </div>
+
+        <div class="titulo-principal">
+          <h1>FurGame TCG Store</h1>
         </div>
 
         <div class="menu">
           <ul>
-            <li>Inicio</li>
-            <li>Productos</li>
-            <li>Academia</li>
-            <li>Cuenta</li>
+            <li><i class="fa-solid fa-house"></i> Inicio</li>
+            <li><i class="fa-solid fa-rug"></i> Productos</li>
+            <li><i class="fa-solid fa-school-flag"></i> Academia</li>
+            <li><i class="fa-solid fa-user"></i> Cuenta</li>
           </ul>
         </div>
+      </nav>
+      <div class="contenedor-general">
+        <aside>
+          <div class="sidebar">
+            <div class="paw">
+              <i class="fa-solid fa-paw"></i>
+            </div>
+            <h2>- Serie</h2>
+
+            <ul>
+              <li><a href="#pokemon">Pokémon</a></li>
+              <li><a href="#magic">Magic The Gathering</a></li>
+              <li><a href="#one-piece">One Piece</a></li>
+              <li><a href="#lorcana">Disney: Lorcana</a></li>
+            </ul>
+
+            <h2>- Colección</h2>
+
+            <ul>
+              <li>Originales</li>
+              <li>Accesorios</li>
+            </ul>
+
+            <h2>- Idioma</h2>
+
+            <ul>
+              <li>Español</li>
+              <li>Inglés</li>
+            </ul>
+
+            <h4><i class="fa-solid fa-paw"></i> FurGame TCG Store</h4>
+          </div>
+        </aside>
+        <main>
+          <section id="pokemon" class="galeria">
+            <article class="contenedor-titulo">
+              <h2>Pokémon</h2>
+            </article>
+
+            <div class="contenedor-cards">
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/pokemon/sv.jpg"
+                    alt="ETB S&V"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Scarlet & Violet</p>
+                  <h2 class="nombre-producto">Elite Trainer Box - S&V</h2>
+                  <p class="precio">$59.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/pokemon/paldean-fates.jpg"
+                    alt="Paldean Fates"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Paldean Fates</p>
+                  <h2 class="nombre-producto">
+                    Elite Trainer Box - Paldean Fates
+                  </h2>
+                  <p class="precio">$59.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/pokemon/surging-sparks.jpg"
+                    alt="surging-sparks"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Surging Sparks</p>
+                  <h2 class="nombre-producto">
+                    Elite Trainer Box - Surging Sparks
+                  </h2>
+                  <p class="precio">$59.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/pokemon/crown.jpg"
+                    alt="Crown Zenit"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Crown Zenit</p>
+                  <h2 class="nombre-producto">
+                    Elite Trainer Box - Crown Zenit
+                  </h2>
+                  <p class="precio">$59.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/pokemon/shrouded.jpg"
+                    alt="Shrouded Fable"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Shroudede Fables</p>
+                  <h2 class="nombre-producto">
+                    Elite Trainer Box - Shrouded Fables
+                  </h2>
+                  <p class="precio">$59.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/pokemon/temporal.jpg"
+                    alt="Temporal Forces"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Temporal Forces</p>
+                  <h2 class="nombre-producto">
+                    Elite Trainer Box - Temporal Forces
+                  </h2>
+                  <p class="precio">$59.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <a class="up" href="#inicio"
+            ><i class="fa-solid fa-arrow-up"></i> Volver Arriba</a
+          >
+          <hr />
+          <section id="magic" class="galeria">
+            <article class="contenedor-titulo">
+              <h2>Magic The Gathering</h2>
+            </article>
+
+            <div class="contenedor-cards">
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/magic/1.jpg"
+                    alt="Starter Kit"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Starter Kit</p>
+                  <h2 class="nombre-producto">
+                    Starter Kit - Magic The Gathering
+                  </h2>
+                  <p class="precio">$46.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/magic/2.jpg"
+                    alt="Kit AC"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Starter Kit - AC</p>
+                  <h2 class="nombre-producto">Starter Kit - Assassins Creed</h2>
+                  <p class="precio">$21.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/magic/3.jpg"
+                    alt="Arena Starter Kit"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Starter Kit - Arena</p>
+                  <h2 class="nombre-producto">Starter Kit - Arena</h2>
+                  <p class="precio">$46.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/magic/4.jpg"
+                    alt="Commander Masters"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Commanders Masters</p>
+                  <h2 class="nombre-producto">Kit - Commander Masters</h2>
+                  <p class="precio">$89.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/magic/5.jpg"
+                    alt="LOTR"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Starter Kit - MyL</p>
+                  <h2 class="nombre-producto">
+                    Pack Lord Of The Ring (4 decks)
+                  </h2>
+                  <p class="precio">$219.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/magic/6.jpg"
+                    alt="Fallout"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Commander Deck - Fallout</p>
+                  <h2 class="nombre-producto">Kit Commander Deck - Fallut</h2>
+                  <p class="precio">$59.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <a class="up" href="#inicio"
+            ><i class="fa-solid fa-arrow-up"></i> Volver Arriba</a
+          >
+
+          <hr />
+
+          <section id="one-piece" class="galeria">
+            <article class="contenedor-titulo">
+              <h2>One Piece</h2>
+            </article>
+
+            <div class="contenedor-cards">
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/op/1.jpg"
+                    alt="Display Romance Dawn"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Display One Piece</p>
+                  <h2 class="nombre-producto">
+                    Display One Piece - Romance Dawn
+                  </h2>
+                  <p class="precio">$189.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/op/2.jpg"
+                    alt="Display 500 years"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Display One Piece</p>
+                  <h2 class="nombre-producto">
+                    Display One Piece - 500 Years into the Future
+                  </h2>
+                  <p class="precio">$119.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/op/3.jpg"
+                    alt="Premium Collection"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Premium Collection</p>
+                  <h2 class="nombre-producto">
+                    One Piece Film Red - Premium Collection
+                  </h2>
+                  <p class="precio">$32.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/op/4.jpg"
+                    alt="Display Two Legends"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Display One Piece</p>
+                  <h2 class="nombre-producto">
+                    Display One Piece - Two Legends
+                  </h2>
+                  <p class="precio">$149.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/op/5.jpg"
+                    alt="Starter Deck Luffy"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Starter Deck</p>
+                  <h2 class="nombre-producto">
+                    One Piece 3d2y - Starter Deck Luffy
+                  </h2>
+                  <p class="precio">$15.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/op/6.jpg"
+                    alt="Ultra Deck"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Ultra Deck</p>
+                  <h2 class="nombre-producto">
+                    One Piece Ultra Deck - The Three Brothers
+                  </h2>
+                  <p class="precio">$59.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <a class="up" href="#inicio"
+            ><i class="fa-solid fa-arrow-up"></i> Volver Arriba</a
+          >
+
+          <hr />
+
+          <section id="lorcana" class="galeria">
+            <article class="contenedor-titulo">
+              <h2>Disney: Lorcana</h2>
+            </article>
+
+            <div class="contenedor-cards">
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/lorcana/1.jpg"
+                    alt="Rise of The Floodborn"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Starter Deck Lorcana</p>
+                  <h2 class="nombre-producto">
+                    Starter Deck - Rise of the Floodborn
+                  </h2>
+                  <p class="precio">$25.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/lorcana/2.jpg"
+                    alt="Into the Inklands"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Ravensburger</p>
+                  <h2 class="nombre-producto">Display Into the Inklands</h2>
+                  <p class="precio">$179.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/lorcana/3.jpg"
+                    alt="Display First Chapter"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Display Lorcana</p>
+                  <h2 class="nombre-producto">
+                    Display Lorcana - The First Chapter
+                  </h2>
+                  <p class="precio">$189.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/lorcana/4.jpg"
+                    alt="Starter Kit"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Starter Kit Lorcana</p>
+                  <h2 class="nombre-producto">
+                    Lorcana Gateway (Starter Deck)
+                  </h2>
+                  <p class="precio">$89.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/lorcana/5.jpg"
+                    alt="Display Ursula"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Display Lorcana</p>
+                  <h2 class="nombre-producto">Display Lorcana - Ursula</h2>
+                  <p class="precio">$189.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="contenedor-img">
+                  <img
+                    src="./assets/img/lorcana/6.jpg"
+                    alt="Lorcana Booster Pack"
+                    class="img-producto"
+                  />
+                </div>
+                <div class="body-card">
+                  <p class="categoria">Booster Pack Lorcana</p>
+                  <h2 class="nombre-producto">Booster Pack Lorcana (unidad)</h2>
+                  <p class="precio">$9.990.-</p>
+                  <div class="contenedor-btn">
+                    <a href="" class="btn-comprar">Comprar Ahora</a
+                    ><a href="" class="btn-carro"
+                      ><i class="fa-solid fa-cart-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+          <a class="up" href="#inicio"
+            ><i class="fa-solid fa-arrow-up"></i> Volver Arriba</a
+          >
+        </main>
       </div>
-    </nav>
-    <aside>
-      <div class="sidebar">
-        <ul>
-          <li>Pokémon</li>
-          <li>Magic The Gathering</li>
-          <li>Digimon TCG</li>
-          <li>One Piece</li>
-          <li>Disney Lorcana</li>
-          <li>Mitos y Leyendas</li>
-        </ul>
-      </div>
-    </aside>
-    <main></main>
-    <footer></footer>
+
+      <footer>
+        <div class="logo-footer">
+          <img src="./assets/img/logo.png" alt="Logo" />
+        </div>
+        <div class="container-texto-footer">
+          <h4><i class="fa-solid fa-paw"></i> FurGame TCG Store</h4>
+          <div class="rrss">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+          <p>Todos los derechos resevados</p>
+          <small
+            >Sitio desarrollado por
+            <a href="https://rockketz-dev.github.io/CV-Felipe/" target="_blank"
+              >@rockketz</a
+            ></small
+          >
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
